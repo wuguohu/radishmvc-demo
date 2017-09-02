@@ -1,5 +1,5 @@
 # RadishMVC
-这是一款类似于struts的`轻量级`框架，使用简单效率高，非常适合`小型网站`使用。
+这是一款应用于javaee项目的的`轻量级`MVC框架，类似于struts。使用起来简单到没有朋友，而且经测试效率很高，非常适合`小型网站`使用。
 
 ### 下载
 
@@ -9,7 +9,7 @@ https://github.com/wuguohu/radishmvc-demo/raw/master/src/main/webapp/WEB-INF/lib
 
 ### 使用说明
 
-1，web.xml添加filter
+* web.xml添加filter
 
 ```xml
   <filter>
@@ -30,7 +30,7 @@ https://github.com/wuguohu/radishmvc-demo/raw/master/src/main/webapp/WEB-INF/lib
   </filter-mapping>
 ```
 
-2, 业务类(Service)实现ActionService
+* 业务类(Service)实现ActionService
 
 ```java
 package com.radishmvc.demo.service;
@@ -78,7 +78,7 @@ public class UserService extends BaseService {
 }
 ```
 
-3, 注解说明
+* 注解说明
 
 @Service 注解标识业务类的访问路径，如@Service("/home")。此注解必须传入访问路径，否则不做解析
 
