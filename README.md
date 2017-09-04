@@ -7,7 +7,7 @@
 
 ### 下载
 
->当前最新版本`V0.0.1`，下载地址：
+>当前最新版本`V0.0.2`，下载地址：
 
 >https://github.com/wuguohu/radishmvc-demo/raw/master/src/main/webapp/WEB-INF/lib/radish-mvc-0.0.2-SNAPSHOT.jar
 
